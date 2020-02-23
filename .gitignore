@@ -1,0 +1,2 @@
+# Ignore Protobuf-generated files
+pb-terminal/Messages/*.pb.swift

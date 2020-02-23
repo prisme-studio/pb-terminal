@@ -63,6 +63,7 @@
 		397B3D2024009230005AD8A9 /* talkers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B3D1B24009230005AD8A9 /* talkers.pb.swift */; };
 		397B3D2124009230005AD8A9 /* network.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B3D1C24009230005AD8A9 /* network.pb.swift */; };
 		397B3D2324009272005AD8A9 /* DatagramType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B3D2224009272005AD8A9 /* DatagramType.swift */; };
+		397B3F7724019728005AD8A9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 397B3F7624019728005AD8A9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 		397B3D1B24009230005AD8A9 /* talkers.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = talkers.pb.swift; sourceTree = "<group>"; };
 		397B3D1C24009230005AD8A9 /* network.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = network.pb.swift; sourceTree = "<group>"; };
 		397B3D2224009272005AD8A9 /* DatagramType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatagramType.swift; sourceTree = "<group>"; };
+		397B3F7624019728005AD8A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		397B3C8324008FA6005AD8A9 = {
 			isa = PBXGroup;
 			children = (
+				397B3F7624019728005AD8A9 /* .gitignore */,
 				397B3C8E24008FA6005AD8A9 /* pb-terminal */,
 				397B3C8D24008FA6005AD8A9 /* Products */,
 			);
@@ -354,7 +357,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Prisme;
 				TargetAttributes = {
 					397B3C8B24008FA6005AD8A9 = {
@@ -393,6 +396,7 @@
 				397B3D0324008FD1005AD8A9 /* Main.storyboard in Resources */,
 				397B3CDE24008FD1005AD8A9 /* Assets.xcassets in Resources */,
 				397B3CFF24008FD1005AD8A9 /* CanvasPropertiesViews.xib in Resources */,
+				397B3F7724019728005AD8A9 /* .gitignore in Resources */,
 				397B3CDF24008FD1005AD8A9 /* grid.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,6 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "pb-terminal/pb_terminal.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KJ993GM677;
@@ -647,6 +652,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "pb-terminal/pb_terminal.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KJ993GM677;
